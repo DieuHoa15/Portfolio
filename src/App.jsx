@@ -2,7 +2,7 @@ import React from 'react'
 
 import {
   Route,
-  createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
   RouterProvider
 } from 'react-router-dom'
@@ -12,7 +12,7 @@ import ProjectPage from './pages/ProjectPage'
 import ContactPage from './pages/ContactPage'
 import NotFoundPage from './pages/NotFoundPage'
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route path="/">
       <Route index element={<HomePage/>}/>
