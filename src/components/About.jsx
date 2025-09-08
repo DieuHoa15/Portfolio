@@ -9,8 +9,8 @@ const About = ({
       <div className="text-center space-y-3 text-stone-50 drop-shadow-md">
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">{title}</h1>              
         <p className="text-l sm:text-xl lg:text-2xl max-w-lg bottom-1">
-          Computer science student with a passion for data science 
-          and software engineering. Welcome to my personal portfolio!
+          Computer science student with a passion for cybersecurity, computer
+          networking, and data. Welcome to my personal portfolio!
         </p>
       </div>
       <img

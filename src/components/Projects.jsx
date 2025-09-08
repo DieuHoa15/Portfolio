@@ -9,12 +9,6 @@ const Projects = () => {
       </h1>
       <main className='mt-6 mb-10 grid grid-cols-1 gap-5 max-w-lg animate-slide'>
         <ProjectCard
-          title="Plant Image Classifier (In Progress)"
-          techStack={["PyTorch"]}
-          description="Personal project. Experiment with Vision Transformer (ViT) and
-            Convolutional Neural Network (CNN) to classify 30 different plants from images."
-        />
-        <ProjectCard
           title="Automated Crash Diagram (In Progress)"
           techStack={["Tkinter"]}
           description="Research project completed in Georgia Tech's Vertically Integrated
