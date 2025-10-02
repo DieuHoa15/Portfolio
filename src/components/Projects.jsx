@@ -9,8 +9,17 @@ const Projects = () => {
       </h1>
       <main className='mt-6 mb-10 grid grid-cols-1 gap-5 max-w-lg animate-slide'>
         <ProjectCard
+          title="LLM CTF Agent (In Progress)"
+          techStack={["Python, TBD"]}
+          description="Group project completed for competition in Georgia Tech's GreyHat cybersecurity 
+            club. Build LLM Agent that receives Capture the Flag challenge as input and solves to 
+            output flag. Agent intended to solve variety of CTF challenges, including but not limited
+            to binary exploitation, reverse engineering, web exploitation, and cryptography. Design new
+            CTF challenges for weekly scrimmages."
+        />
+        <ProjectCard
           title="Automated Crash Diagram (In Progress)"
-          techStack={["Tkinter"]}
+          techStack={["Tkinter, Matplotlib, Pandas, Numpy"]}
           description="Research project completed in Georgia Tech's Vertically Integrated
             Project (VIP) program as part of Smart City Infrastructure team. Develop application
             to automate roadway intersection diagraming process for Georgia Department of
